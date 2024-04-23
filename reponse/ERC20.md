@@ -18,7 +18,8 @@ function allowance(address _owner, address _spender) public view returns (uint25
 ```
 
 
-Pour créer un token ERC20 :
+Pour créer un token ERC20, vous pouvez utiliser OpenZeppelin, une bibliothèque de contrats intelligents open source qui fournit des contrats prêts à l'emploi pour le développement de contrats intelligents Ethereum : 
 
 - en implementant IERC20
 - en héréditant de ERC20
+- en créant un contrat from scratch
