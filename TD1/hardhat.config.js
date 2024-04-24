@@ -11,4 +11,9 @@ module.exports = {
       accounts: ["0x10977955fe22e1eca26aa681b428842c576ec83462e690fb19e882194c2cf46c"],
     },
   },
+  etherscan: {
+    apiKey: {
+      sepolia: "QYYV21EISN9SBF7AB6PD2TAKNUPMI32NXV"
+    }
+  }
 };

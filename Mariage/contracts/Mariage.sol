@@ -6,6 +6,8 @@ import "./Personnage.sol";
 contract Mariage {
     Personnage public personnageContract1;
     Personnage public personnageContract2;
+    string public name = "Mariage";
+    string public symbol = "MARIAG";
 
     struct Couple {
         Personnage.Personne partenaire1;
