@@ -4,13 +4,14 @@ pragma solidity ^0.8.24;
 contract Personnage {
     struct Personne {
         string nom;
+        address addr;
         bool estMarie;
     }
 
     Personne[] public personnes;
 
     function creerPersonne(string memory _nom) public {
-        personnes.push(Personne(_nom, false));
+        personnes.push(Personne(_nom, msg.sender, false));
     }
 
     function getPersonne(uint _id) public view returns (Personne memory) {
