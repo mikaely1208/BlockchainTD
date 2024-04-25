@@ -1,61 +1,65 @@
 # Examen 
 
-### Question 1 : La blockchain est un réseau a) populaire b) fermé c) décentralisé d) intelligent
+### Question 1 -> La blockchain est un réseau : 
+#### <ul> <li>populaire</li><li> fermé</li><li> décentralisé</li> <li> intelligent</li> </ul>
 
-### Réponse Question 1 :
-
+### Réponse  :
 Blockchain est un réseau décentralisé. 
 
 
 
-### Question 2 : Quelles technologies sont généralement utilisées par une blockchain ? </br> a) La cryptographie asymétrique b) le "hachage" cryptographique c) Les réseaux peer-to-peer d) Toutes les réponses précédentes
+### Question 2 -> Quelles technologies sont généralement utilisées par une blockchain ? 
+#### <ul> <li>La cryptographie asymétrique</li> <li> le "hachage" cryptographique</li> <li> Les réseaux peer-to-peer</li><li> Toutes les réponses précédentes</li></ul>
 
-### Réponse Question 2 :
+### Réponse :
 
 Toutes les réponses précédentes sont correctes.
 
-## Question 3 : Dans un système d'accounting, comment sont gérés les soldes des utilisateurs ? a) Par un registre centralisé b) Par un registre distribué c)Par un ensemble de transactions non dépensées d) Par des contrats intelligents
+### Question 3 -> Dans un système d'accounting, comment sont gérés les soldes des utilisateurs ? 
+#### <ul>  <li>Par un registre centralisé</li> <li> Par un registre distribué</li> <li>Par un ensemble de transactions non dépensées</li><li> Par des contrats intelligents</li></ul>
 
-### Réponse Question 3
+### Réponse 
 
 Les soldes des utilisateurs sont gérés par un registre distribué.
 
-## Question 4 : Laquelle de ces propositions décrit le mieux la Proof of Work ? a) Un mécanisme de consensus basé sur la résolution de puzzles cryptographiques b) Un mécanisme de consensus basé sur la possession de monnaie c) Un mécanisme de consensus basé sur la confiance d) Un mécanisme de consensus basé sur le temps
+### Question 4 -> Laquelle de ces propositions décrit le mieux la Proof of Work ? 
+#### <ul> <li>Un mécanisme de consensus basé sur la résolution de puzzles cryptographiques</li> <li>Un mécanisme de consensus basé sur la possession de monnaie</li> <li>Un mécanisme de consensus basé sur la confiance</li> <li>Un mécanisme de consensus basé sur le temps</li></ul>
 
-### Réponse Question 4
+### Réponse 
 
 La Proof of Work est un mécanisme de consensus basé sur la résolution de puzzles cryptographiques.
 
+### Question 5 -> Quel est le rôle des mineurs dans une blockchain ? 
+#### <ul> <li>Verifier les transactions et créer de nouveaux blocs</li> <li>Génerer des nouveaux tokens</li> <li>Gérer des contrats intelligents</li> <li>Maintenir un registre centralisé</li></ul>
 
-## Question 5  : Quel est le rôle des mineurs dans une blockchain ? a) Verifier les transactions et créer de nouveaux blocs b) Génerer des nouveaux tokens c) Gérer des contrats intelligents d) Maintenir un registre centralisé
-
-### Réponse Question 5
+### Réponse 
 
 Les mineurs vérifient les transactions et créent de nouveaux blocs.
 
+### Question 6 -> Qu'est ce qu'un bloc dans une blockchain ? 
+#### <ul> <li>Un groupe de transactions</li> <li>Un noeud du réseau</li> <li>Une fonction de hachage</li></ul>
 
-## Question 6 : Qu'est ce qu'un bloc dans une blockchain ? a) Un groupe de transactions b) Un noeud du réseau c) Une fonction de hachage 
-
-### Réponse Question 6
+### Réponse 
 
 Un bloc est un groupe de transactions.
 
+### Question 7 -> Quel algorithme de consensus est utilisé par Bitcoin ? 
+#### <ul> <li>Proof of Work</li> <li>Proof of Stake</li> <li>Delegated Proof of Stake</li></ul>
 
-## Question 7 : Quel algorithme de consensus est utilisé par Bitcoin ? a) Proof of Work b) Proof of Stake c) Delegated Proof of Stake 
-
-### Réponse Question 7
+### Réponse 
 
 Bitcoin utilise la Proof of Work.
 
+### Question 8 -> Quel est le principal objectif des signatures dans une blockchain ? 
+#### <ul> <li>Authentifier l'identité de l'émetteur</li> <li>Chiffrer les données de transaction</li> <li>Compresser les données de transaction</li> <li>Générer un nouvel identifiant pour la transaction</li></ul>
 
-## Question 8 : Quel est le principal objectif des signatures dans une blockchain ? a) Authentifier l'identité de l'émetteur b) Chiffrer les données de transaction c) Compresser les données de transaction d) Générer un nouvel identifiant pour la transaction
-
-### Réponse Question 8
+### Réponse 
 
 Le principal objectif des signatures dans une blockchain est d'authentifier l'identité de l'émetteur.
 
 
-## Question 9 : Analysez ce code cf. [Exam.sol](Exam.sol), décrivez le et proposez un usage de ce dernier. 
+
+### Question 9 -> Analysez ce code cf. [Exam.sol](Exam.sol), décrivez le et proposez un usage de ce dernier. 
 
 ### Réponse Question 9
 
@@ -74,7 +78,7 @@ Pour l'utilisation, le contrat pourrait etre déployé par un enseignant pour g�
 
 
 
-## Question 10 : À quoi sert `uint public passingMarks;` ? 
+### Question 10 -> À quoi sert `uint public passingMarks;` ? 
 
 ### Réponse Question 10
 
@@ -82,7 +86,7 @@ L'instruction `uint public passingMarks;` déclare une variable publique `passin
 
 
 
-## Question 11 : Décrivez les étapes qui permettent d'utiliser ce code en "production". 
+### Question 11 -> Décrivez les étapes qui permettent d'utiliser ce code en "production". 
 
 ### Réponse Question 11
 
@@ -97,7 +101,7 @@ Pour utiliser ce code en production, il faut suivre les étapes suivantes (en ut
 - Utiliser le contrat déployé en interagissant avec lui via une interface utilisateur ou un script web3.js
 
 
-## Question 12 : Peut-on librement utiliser la fonction `submitMarks` ? Pourquoi ?
+### Question 12 -> Peut-on librement utiliser la fonction `submitMarks` ? Pourquoi ?
 
 ### Réponse Question 12
 
@@ -107,7 +111,7 @@ Non et pour deux raisons:
 - la deuxième c'est qu'on a `require(studentMarks <= totalMarks, "Marks cannot be greater than total marks");` : qui est cette fois une condition qui vérifie que les notes de l'étudiant ne dépassent pas les notes totales ce qui assure que les notes soumises sont valides.
 
 
-## Question 13 : À quoi sert la fonction `getMarks` ? Qui peut l'appeler ?
+### Question 13 -> À quoi sert la fonction `getMarks` ? Qui peut l'appeler ?
 
 ### Réponse Question 13
 
@@ -117,7 +121,7 @@ Ici, la fonction getMarks est marquée comme `external`, ce qui signifie qu'elle
 
 
 
-## Question 14 : Identifiez deux moyens d'améliorer cette fonction, proposez un noveau code source pour la fonction améliorée.
+### Question 14 -> Identifiez deux moyens d'améliorer cette fonction, proposez un noveau code source pour la fonction améliorée.
 
 
 ### Réponse Question 14
@@ -139,7 +143,7 @@ function getMarks(address student) external view returns (uint) {
 ```
 
 
-## Question 15 : Expliquer en quoi la blockchain serait un avantage pour le contexte d'utilisation du code présenté.
+### Question 15 -> Expliquer en quoi la blockchain serait un avantage pour le contexte d'utilisation du code présenté.
 
 
 ### Réponse Question 15
@@ -152,7 +156,7 @@ Il y a plusieurs raisons pour lesquelles la blockchain serait un avantage pour l
 
 
 
-## Question 16 : Nous souhaitons pouvoir changer de professeur comment faire ?
+### Question 16 -> Nous souhaitons pouvoir changer de professeur comment faire ?
 
 ### Réponse Question 16
 
